@@ -1,0 +1,37 @@
+start = xml
+xml = element xml { title, metadata, og-recipe, comment, mdf-recipe, review }
+title = element title { text }
+metadata = element metadata { background, editor }
+og-recipe = element og-recipe { instruct }
+background =
+    element background {
+        mixed { (origin | person | place)+ }
+    }
+editor = element editor { "Kaa Rivera" }
+origin = element origin { "MS Codex 625" }
+person = element person { who, "Edward Kidder" }
+who = attribute who { "author" }
+place = element place { "London" }
+instruct = element instruct {mixed { (quant | ing | step | temp | duration | doneCondition | optional | result| comment)* }}
+measurements = element measurements{mixed{(ing|quant)+}}
+# this can be more specific
+ing = element ing { status?, ("butter" | "sugar" | "mace" | "eggs" | "flour" | "cinnamon" | text) }
+status = attribute status { "softened" }
+quant = element quant { measure*, text }
+measure = attribute measure { "pound" | "teaspoon" }
+# text error here
+comment = element comment { (condition | advice | text|comment)+ }
+condition = element condition { "halved from the original" }
+mdf-recipe =element mdf-recipe {mixed { (quant| ing| instruct| measurements)* }}
+review = element review { title, comment }
+advice = element advice { text }
+step = element step { n, mixed {(ing|temp|duration)*} }
+n = attribute n { xsd:integer }
+temp = element temp { "350F" }
+duration = element duration { "15-18 minutes" }
+doneCondition =
+    element doneCondition {
+        "They’re done once they turn the slightest bit brown around the edges."
+    }
+optional = element optional {"You could also refrigerate the dough until it’s firm enough to roll out on a flat surface and cut out into rounds."}
+result = element result{"two dozen cookies."}
