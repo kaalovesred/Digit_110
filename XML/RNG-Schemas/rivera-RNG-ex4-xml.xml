@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="rivera-RNG-ex4.rnc" type="application/relax-ng-compact-syntax"?>
+<resume>
+    <head><name>Kaa Rivera</name>
+        <phoneNumber>814-323-9099</phoneNumber> | <email>clr6181@psu.edu</email> | <address>Erie, PA
+            16503</address></head>
+    <skills>
+        <title>SKILLS</title>
+        <!--This was my attempt to encode the collums from the original word document -->
+        <bul col="1">• Critical thinking</bul>
+        <bul col="2">• Fast learner</bul>
+        <bul col="3">• Attention to detail</bul>
+        <bul col="1">• Team collaboration</bul>
+        <bul col="2">• Adaptable and flexible</bul>
+        <bul col="3">• Multitasking</bul>
+        <bul col="1">• Strong Work Ethic</bul>
+        <bul col="2">• Customer service excellence</bul>
+        <bul col="3">• Cash handling proficiency</bul>
+    </skills>
+    <experience><title>EXPERIENCE</title>
+        <occupation>Games Operator</occupation>
+        <location>Waldameer Park</location>, <range>2023 - Current</range>
+        <!--Replaced ln elements with bul (bullets) -->
+        <bul>• Participated in ongoing staff meetings aimed at improving overall operations.</bul>
+        <bul>• Greeted guests upon arrival at gaming area, making them feel welcome and comfortable
+            in space.</bul>
+        <bul>• Supervised underage guests</bul>
+        <bul>• Assisted customers with game rules and strategies to enhance their gaming
+            experience.</bul>
+        <bul>• Managed inventory levels of supplies such as tokens, chips, cards, and more to ensure
+            availability for all customers.</bul>
+        <occupation>Concessions Cashier</occupation>
+        <location>Waldameer Park</location>, <range>2022 - 2022</range>
+        <bul>• Satisfied customers with fast and friendly food, beverage and dessert services.</bul>
+        <bul>• Processed customer orders and payments quickly with efficiently.</bul>
+        <bul>• Met customer needs by keeping self-serve stations well-stocked with food and
+            supplies.</bul>
+        <bul>• Prepared and served food items to customers at concession stands.</bul>
+        <bul>• Utilized time-management skills to ensure efficient completion of tasks during busy
+            events or peak sales periods.</bul></experience>
+    <education><title>EDUCATION</title>
+        <location>Penn State Behrend, Erie PA</location>, Grad 2029 <bul>• Maintain 3.9 GPA pursuing
+            DIGIT Major with a minor in Game Development</bul>
+        <bul>• Maintain an active presence in schools hosted e-sports league</bul>
+        <location>Collegiate Academy, Erie PA</location>, <date>Jun 2025</date>
+        <bul>• Dean's List Student throughout Educational experience.</bul>
+        <bul>• Maintain active presence in schools hosted e-sports league, serving as captain of
+            team.</bul>
+        <bul>• Recipient of student achievement award from the Computer Department</bul></education>
+</resume>

@@ -1,0 +1,42 @@
+#Kaa Rivera Relax NG Test: KR
+start = article
+#13. Changing or to a comma here
+article = element article {mixed{head, body}}
+#12. Adding a plus sign to headLine
+head = element head {titleLine, headLine+}
+#4. Adding headLine element
+headLine = element headLine{n, mixed{(newspaper|shift|money)*}}
+#5. Adding shift element
+shift = element shift{dur, text}
+#6. Adding dur attribute
+dur = attribute dur{"PT9H30M"|"PT10H"}
+#7. Adding money element
+#18.
+money = element money{mixed{(unit, amount)}}
+#8. Adding unit attribute
+unit = attribute unit{"USD"}
+#10. Adding series element to titleLine
+titleLine = element titleLine {mixed{(newspaper, date), num?, series}}
+#11. Changing newspaper from empty to Chicago Times and text
+newspaper = element newspaper {"Chicago Times"|text} 
+date = element date {when, text}
+#3. Adding the when attribute and giving it xsd:date
+when = attribute when{xsd:date}
+num = element num {amount, text}
+#1. Adding an xsd:deciaml to the amount attribute
+amount = attribute amount {xsd:decimal}
+series = element series {text}
+#2. Adding xsd:integer to n attribute
+n = attribute n {xsd:integer}
+#16. Adding a plus to p
+body = element body {p+}
+#15. Changing this to a mixed element
+p = element p {mixed{(company | address | description)*}} 
+company = element company {text}
+address = element address {type, text}
+#9. Changing comma to or bracket here
+type = attribute type {"exact"|"general"}
+#17. Adding address to description
+description = element description {mixed{(company)*,address?}}
+
+

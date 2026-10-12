@@ -4,7 +4,10 @@
         <encoder>Kaa Rivera</encoder>
     </metadata>
     <title>BALLAD OF BOOKER T.</title> by <author id="Langston Hughes">Langston Hughes </author>
-    <poem><ln n="1" rhyme="A"><person who="subject">Booker T.</person></ln>
+    <poem>
+        <!--Need to fix numbering here-->
+        <!-- Look into xsd:IDREFS-->
+        <ln n="1" rhyme="A"><person who="subject">Booker T.</person></ln>
         <ln n="1" rhyme="B">Was a practical man.</ln>
         <ln n="2" rhyme="C">He said, Till the soil</ln>
         <ln n="3" rhyme="B">And learn from the land.</ln>

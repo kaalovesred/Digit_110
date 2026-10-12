@@ -1,0 +1,17 @@
+start = resume
+resume = element resume{head,skills,experience,education}
+head = element head{mixed{name, phoneNumber, email,address}}
+address = element address{"Erie, PA 16503"}
+name = element name{"Kaa Rivera"}
+phoneNumber = element phoneNumber{"814-323-9099"}
+email = element email{"clr6181@psu.edu"}
+skills = element skills{title,bul+}
+experience = element experience{title,mixed{(occupation, location, range, bul+)*}}
+education = element education{title,mixed{(location+|bul+|date?)*}}
+title = element title{("SKILLS"|"EXPERIENCE"|"EDUCATION")}
+range = element range{("2023 - Current"|"2022 - 2022")}
+bul = element bul{col?, text}
+col = attribute col{xsd:integer}
+occupation = element occupation{("Games Operator"|"Concessions Cashier")}
+location = element location{("Waldameer Park"|"Penn State Behrend, Erie PA" | "Collegiate Academy, Erie PA")}
+date = element date{"Jun 2025"}
