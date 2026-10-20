@@ -1,67 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xml><metadata>Transcript Page 1 of 2 Education and Outreach Division "Ballad of Booker T.," by
-        Langston Hughes, <date id="1941-06-01">June 1, 1941</date>
-        <encoder>Kaa Rivera</encoder>
+<xml><metadata>Transcript Page 1 of 2 <publisher>Education and Outreach Division</publisher>
+        <title>"Ballad of Booker T.,"</title> by <author>Langston Hughes</author>, <date
+            id="1941-06-01">June 1, 1941</date>
+        <editor>Kaa Rivera</editor>
     </metadata>
     <title>BALLAD OF BOOKER T.</title> by <author id="Langston Hughes">Langston Hughes </author>
     <poem>
-        <!--Need to fix numbering here-->
+        <!--Updated numbering-->
         <!-- Look into xsd:IDREFS-->
         <ln n="1" rhyme="A"><person who="subject">Booker T.</person></ln>
-        <ln n="1" rhyme="B">Was a practical man.</ln>
-        <ln n="2" rhyme="C">He said, Till the soil</ln>
-        <ln n="3" rhyme="B">And learn from the land.</ln>
+        <ln n="2" rhyme="B">Was a practical man.</ln>
+        <ln n="3" rhyme="C">He said, Till the soil</ln>
+        <ln n="4" rhyme="B">And learn from the land.</ln>
         <!--I need to add in the red stamp about here:-->
-        <ln n="4" rhyme="D">Let down your <stamp text="Library of Congress" ink="red"
+        <ln n="5" rhyme="D">Let down your <stamp text="Library of Congress" ink="red"
             >bucket</stamp></ln>
         <stamp text="Library of Congress" ink="red">
-            <ln n="5" rhyme="E">Where you are.</ln>
-            <ln n="6" rhyme="F">Your fate is here</ln>
-            <ln n="7" rhyme="E">And not afar.</ln>
-            <ln n="8" rhyme="G">To help yourself</ln>
-            <ln n="9" rhyme="H">And your fellow man,</ln></stamp>
+            <ln n="6" rhyme="E">Where you are.</ln>
+            <ln n="7" rhyme="F">Your fate is here</ln>
+            <ln n="8" rhyme="E">And not afar.</ln>
+            <ln n="9" rhyme="G">To help yourself</ln>
+            <ln n="10" rhyme="H">And your fellow man,</ln></stamp>
         <!--Stamp ends here-->
-        <ln n="10" rhyme="I">Train your head,</ln>
-        <ln n="11" rhyme="H">Your heart, and your hand.</ln>
-        <ln n="12" rhyme="J">For smartness alone's</ln>
-        <ln n="13" rhyme="K">Surely not meet—</ln>
-        <ln n="14" rhyme="L">If you haven't at the same time</ln>
-        <ln n="15" rhyme="K">Got something to eat.</ln>
-        <ln n="16" rhyme="M">Thus at Tuskegee</ln>
-        <ln n="17" rhyme="N">He built a school </ln>
-        <ln n="18" rhyme="O">With book-learning there </ln>
-        <ln n="18" rhyme="N">And the workman's tool.</ln>
-        <ln n="19" rhyme="P">He started out </ln>
-        <ln n="20" rhyme="Q">In a simple way— </ln>
-        <ln n="21" rhyme="Q">For yesterday </ln>
-        <ln n="22" rhyme="Q">Was not today. </ln>
-        <ln n="23" rhyme="R">Sometimes he had </ln>
-        <ln n="24" rhyme="S">Compromise in his talk— </ln>
-        <ln n="25" rhyme="T">For a man must crawl </ln>
-        <ln n="26" rhyme="S">Before he can walk— </ln>
-        <ln n="27" rhyme="U">And in Alabama in '85</ln>
-        <ln n="28" rhyme="V">A joker was lucky </ln>
-        <ln n="29" rhyme="U">To be alive. </ln>
-        <ln n="30" rhyme="W">But Booker T. </ln>
-        <ln n="31" rhyme="X">Was nobody's fool: </ln>
-        <ln n="32" rhyme="Y">You may carve a dream </ln>
-        <ln n="33" rhyme="X">With an humble tool. </ln>
-        <ln n="34" rhyme="Z">The tallest tower </ln>
-        <ln n="35" rhyme="A">Can tumble down</ln>
-        <ln n="36" rhyme="B">If it be not rooted </ln>
-        <ln n="37" rhyme="A">In solid ground.</ln>
-        <ln n="38" rhyme="C">So, being a far-seeing </ln>
-        <metadata>Transcript Page 2 of 2 Education and Outreach Division </metadata>
-        <ln n="39" rhyme="D">Practical man, </ln>
-        <ln n="40" rhyme="E">He said, Train your head, </ln>
-        <ln n="41" rhyme="D">Your heart, and your hand. </ln>
-        <ln n="42" rhyme="F">Your fate is here </ln>
-        <ln n="43" rhyme="G">And not afar, </ln>
-        <ln n="44" rhyme="H">So let down your bucket</ln>
-        <ln n="45" rhyme="G">Where you are. </ln>
+        <ln n="11" rhyme="I">Train your head,</ln>
+        <ln n="12" rhyme="H">Your heart, and your hand.</ln>
+        <ln n="13" rhyme="J">For smartness alone's</ln>
+        <ln n="14" rhyme="K">Surely not meet—</ln>
+        <ln n="15" rhyme="L">If you haven't at the same time</ln>
+        <ln n="16" rhyme="K">Got something to eat.</ln>
+        <ln n="17" rhyme="M">Thus at Tuskegee</ln>
+        <ln n="18" rhyme="N">He built a school </ln>
+        <ln n="19" rhyme="O">With book-learning there </ln>
+        <ln n="20" rhyme="N">And the workman's tool.</ln>
+        <ln n="21" rhyme="P">He started out </ln>
+        <ln n="22" rhyme="Q">In a simple way— </ln>
+        <ln n="23" rhyme="Q">For yesterday </ln>
+        <ln n="24" rhyme="Q">Was not today. </ln>
+        <ln n="25" rhyme="R">Sometimes he had </ln>
+        <ln n="26" rhyme="S">Compromise in his talk— </ln>
+        <ln n="27" rhyme="T">For a man must crawl </ln>
+        <ln n="28" rhyme="S">Before he can walk— </ln>
+        <ln n="29" rhyme="U">And in Alabama in '85</ln>
+        <ln n="30" rhyme="V">A joker was lucky </ln>
+        <ln n="31" rhyme="U">To be alive. </ln>
+        <ln n="32" rhyme="W">But Booker T. </ln>
+        <ln n="33" rhyme="X">Was nobody's fool: </ln>
+        <ln n="33" rhyme="Y">You may carve a dream </ln>
+        <ln n="34" rhyme="X">With an humble tool. </ln>
+        <ln n="35" rhyme="Z">The tallest tower </ln>
+        <ln n="36" rhyme="A">Can tumble down</ln>
+        <ln n="37" rhyme="B">If it be not rooted </ln>
+        <ln n="38" rhyme="A">In solid ground.</ln>
+        <ln n="39" rhyme="C">So, being a far-seeing </ln>
+        <metadata>Transcript Page 2 of 2 <publisher>Education and Outreach Division</publisher>
+        </metadata>
+        <ln n="40" rhyme="D">Practical man, </ln>
+        <ln n="41" rhyme="E">He said, Train your head, </ln>
+        <ln n="42" rhyme="D">Your heart, and your hand. </ln>
+        <ln n="43" rhyme="F">Your fate is here </ln>
+        <ln n="44" rhyme="G">And not afar, </ln>
+        <ln n="45" rhyme="H">So let down your bucket</ln>
+        <ln n="46" rhyme="G">Where you are. </ln>
     </poem>
-    <signature who="author">LANGSTON HUGHES</signature> Final Draft, <place where = "sender location">Hollow Hills Farm,
-        Monterey, California, </place>
+    <signature who="author">LANGSTON HUGHES</signature> Final Draft, <place where="sender location"
+        >Hollow Hills Farm, Monterey, California, </place>
     <date id="1941-06-01">June 1, 1941. </date>
     <cite>Citation: Drafts of Langston Hughes's poem "Ballad of Booker T.," 30 May–1 June 1941.
         (Langston Hughes Collection) Manuscript Division, Library of Congress, Washington,
