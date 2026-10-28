@@ -3,12 +3,13 @@
         <title>"Ballad of Booker T.,"</title> by <author>Langston Hughes</author>, <date
             id="1941-06-01">June 1, 1941</date>
         <editor>Kaa Rivera</editor>
+        <handNote xml:id = "">Numbering</handNote>
     </metadata>
     <title>BALLAD OF BOOKER T.</title> by <author id="Langston Hughes">Langston Hughes </author>
     <poem>
         <!--Updated numbering-->
         <!-- Look into xsd:IDREFS-->
-        <ln n="1" rhyme="A"><person who="subject">Booker T.</person></ln>
+        <ln xml:id = "xml:integer" rhyme="A"><person who="subject">Booker T.</person></ln>
         <ln n="2" rhyme="B">Was a practical man.</ln>
         <ln n="3" rhyme="C">He said, Till the soil</ln>
         <ln n="4" rhyme="B">And learn from the land.</ln>

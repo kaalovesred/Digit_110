@@ -1,0 +1,24 @@
+XPath Exercise 1
+Kaa Rivera
+------------------
+
+1.) //div[@type = "panelGrp"]
+
+2.) /div[@type = "panelGrp"]//cbml:panel
+
+3.) //div[@type = "panelGrp"][2]//cbml:panel - returns 2 panels
+
+4.) //div/cbml:panel/@characters - returns 53 values
+
+5.) //div/cbml:panel[@characters = "#narrator"]
+
+6.) 
+
+    a. There are 36 floating text elements
+    
+    b. These elements portray text that is situated outside a text bubble in the panel.
+       They seem to be portraying graphical representations in the comic that are floating on the page.
+    
+    c. //div/(cbml:panel[floatingText])
+    
+    d. The count function returns 26 panels that contain floating text.
