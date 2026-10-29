@@ -1,0 +1,36 @@
+XPath Exercise 2
+Kaa Rivera
+----------------
+
+
+1.) //body/(div[@type  = "historical_people"])
+
+2b.) //div[@type = "historical_people"]/*
+
+2c.) //body/div[@type  = "art"]/list/figure
+
+2c.) //body/div[@type  = "art"]/list/figure => count()
+
+3a.) //body/div[@type  = "nature"]/list/item => count()
+
+3b.) //body/div[@type  = "nature"]/list[@sortKey = "animals"]/item[last()] -- returns crested wren
+
+3c.) //body/div[@type  = "nature"]/list[@sortKey = "plants"]/item[5] -- returns apple tree
+
+3d.) //body/div[@type  = "nature"]/list[@sortKey = "plants"]/item[position() le 6]
+
+4.) //person/occupation[1] -- returns the occupation element for every person
+    (//person/occupation)[1] -- returns only the first person in the list
+    The parentheses group the directory together and apply the condition to both.
+
+5a.) //div/listPerson/person => count() -- returns 1552 results
+
+5b.) //div/listPerson/person[@sex] => count() -- only 1393 persons have the sex attribute
+
+5c.) count(//div[@type = "historical_people"]/listPerson[@sortKey = "histPersons"]/person[@sex]) 
+    div count(//div[@type = "historical_people"]/listPerson[@sortKey = "histPersons"]/person) * 100
+    96% of persons have the sex element
+
+5d.)  count(//div[@type = "historical_people"]/listPerson[@sortKey = "histPersons"]/person[@sex = "f"]) 
+      div count(//div[@type = "historical_people"]/listPerson[@sortKey = "histPersons"]/person[@sex]) * 100
+      28% of persons with the sex element are encoded as female.
